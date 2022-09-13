@@ -21,8 +21,7 @@ The `LocalDate` class is an immutable class that only holds the date values of
 a component without a time or a timezone associated with it. A good use case of
 a `LocalDate` could be a birthday.
 
-
-### Constructing a `LocalDate` 
+### Constructing a `LocalDate`
 
 Let's say we have a `Person` class and the `Person` class, for this example,
 only has a name and a birthday:
