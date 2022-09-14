@@ -365,8 +365,8 @@ public class LocalDateTimeExample {
         System.out.println(dateTime);    // <-- May print something like this: 2022-08-18T12:50:07.319447
         
         // Obtain an instance of LocalDateTime by taking in a year, month, day, hour, minute, and second as arguments
-        dateTime = LocalDateTime.of(1955, 11, 5, 13, 0, 0);
-        System.out.println(dateTime);    // <-- Will print 1955-11-05T13:00
+        dateTime = LocalDateTime.of(1955, 11, 5, 6, 15, 0);
+        System.out.println(dateTime);    // <-- Will print 1955-11-05T06:15
     }
 }
 ```
